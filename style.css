@@ -1,0 +1,537 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #444444;}
+body{
+ font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+ color: #444444;
+ font-size: 18px;
+ line-height: 28px;
+}
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@font-face {
+  font-family: 'KOHIBaeumOTF';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*header*/
+#header{
+  /* width: 1920px; *//*바깥에 넓이 값 안줌*/
+  height: 171px;
+  background-color: #f6e4c2;
+}
+
+.header_inner{
+  width: 1320px;
+  height: 171px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo{
+  position: absolute;
+  display: block;
+  top: 30px;
+  left: 0;
+}
+
+.search{
+  display: inline-block;
+  position: absolute;
+  top: 41px;
+  left: 244px;
+  border: 1px solid #444a99;
+  border-radius: 50px;
+  background: #fff url(images/search.png) 90% 50% no-repeat;
+  color: #555;
+  font-size: 14px;
+  padding: 8px 90px 8px 19px;
+}
+
+
+.search:hover{
+  background-color: #d7ecf5;
+}
+
+.link{
+  font-size: 12px;
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+
+.link a{
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fbf2e1;
+  padding: 1px 14px;
+  margin-left: 10px;
+}
+
+.link a:hover{
+  background-color: #fff;
+  font-weight: bold;
+}
+
+/*nav*/
+.nav{
+  position: absolute;
+  width: 880px;
+  top: 132px;
+  left: 50%;
+  margin-left: -440px;
+}
+
+.nav li{
+  float: left;
+  width: 20%;
+  font-weight: 700;
+  text-align: center;
+}
+
+.nav li a:hover{
+  color: #444a99;
+  font-weight: bolder;
+}
+
+.bolder{
+  color: #444a99;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/*banner*/
+#banner{
+  width: 100%;
+  height: 351px;
+  background: url(images/sub01_mainbanner.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+/*wrap*/
+#wrap{
+  width: 1320px;
+  margin: 0 auto;
+}
+
+/*con1*/
+.con1{
+  width: 100%;
+  height: 648px;
+  margin-bottom: 150px;
+}
+
+h1{
+  margin: 150px 0 35px 0;
+  font-family: 'KOHIBaeumOTF';
+  color: #444a99;
+  font-size: 45px;
+}
+
+.con1 h1{
+  margin-bottom: 60px;
+}
+
+.left{
+  width: 558px;
+  height: 558px;
+  float: left;
+}
+
+.left li img{
+  display: block;
+  transition: all 1s;
+}
+
+.left ul li{
+  float: left;
+  position: relative;
+  width: 186px;
+  height: 186px;
+  overflow: hidden;
+}
+
+.left li:hover img{
+  transform: scale(1.2,1.2);
+}
+
+.right{
+  width: 685px;
+  height: 558px;
+  float: right;
+}
+
+.right h2{
+  font-family: 'KOHIBaeumOTF';
+  margin: 30px 0 43px 0;
+  color: #6ac8f1;
+  font-size: 30px;
+}
+
+.right h3{
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.right p{
+  font-size: 16px;
+  margin-bottom: 43px;
+  line-height: 26px;
+}
+
+.navy{
+  color: #444a99;
+  font-weight: bold;
+}
+
+/*con2*/
+.con2{
+  width: 100%;
+  height: 667px;
+  margin-bottom: 150px;
+}
+
+h4{
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 60px;
+  font-weight: 500;
+}
+
+.box1{
+  width: 1320px;
+  height: 210px;
+  margin-bottom: 55px;
+}
+
+.left_box{
+  float: left;
+ width: 697px;
+}
+
+.left_box ul{
+  width: 697px;
+}
+
+.right_box{
+  float: right;
+  width: 596px;
+  padding-top: 58px;
+}
+
+h5{
+  font-size: 21px;
+  margin: 0 0 30px 0;
+}
+
+.right_box p{
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.left_box ul li{
+  float: left;
+  margin-right: 63px;
+}
+
+.left_box ul .margin_r{
+  margin-right: 0;
+}
+
+.color{
+  text-align: center;
+  font-size: 21px;
+  margin-top: 15px;
+}
+
+/*con3*/
+.con3{
+  width: 100%;
+  height: 1063px;
+  background: url(images/character_bg.png) no-repeat center top;
+  margin-bottom: 150px;
+}
+
+.con3 h1{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.con3 h4{
+  text-align: center;
+}
+
+.left_box2{
+  float: left;
+  width: 526px;
+  height: 526px;
+  margin-right: 82px;
+}
+
+.right_box2{
+  float: right;
+  width: 712px;
+}
+
+h6{
+  font-family: 'KOHIBaeumOTF';
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+
+.character_e{
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.right_box2 ul li{
+  float: left;
+  font-size: 14px;
+  margin-right: 20px;
+  color: #444a99;
+  font-weight: bold;
+}
+
+.right_box2 ul{
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.character_t_bg{
+  background-color: #fff;
+  border: 4px solid #444a99;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.character_name{
+  font-family: 'KOHIBaeumOTF';
+  font-size: 20px;
+}
+
+.character_text{
+  margin-bottom: 20px;
+}
+
+/*con4*/
+.con4{
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+/*con5*/
+.con5{
+  width: 100%;
+  height: 695px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.floor_box{
+  margin: 0 auto;
+  position: relative;
+  width: 1112px;
+  height: 541px;
+}
+
+.floor_box img{
+  display: block;
+}
+
+.floor1{
+  float: left;
+}
+
+.floor2{
+  float: right;
+}
+
+/*con6*/
+.con6{
+  width: 100%;
+  height: 1080px;
+  background: url(images/map_bg.png) no-repeat center top;
+}
+
+.con6 h1{
+  padding-top: 139px;
+  margin-bottom: 60px;
+}
+
+.map_img{
+  margin-bottom: 10px;
+}
+
+.location{
+  float: left;
+  margin-right: 226px;
+}
+
+.tel{
+  float: left;
+}
+
+.map{
+  float: right;
+}
+
+.map:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.icon{
+  margin-right: 5px;
+}
+
+.bold{
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.map_t{
+  width: 100%;
+  overflow: hidden;
+}
+
+.public1{
+  padding: 60px 0 50px 60px;
+  width: 100%;
+  height: 58px;
+}
+
+.public_img{
+  float: left;
+  margin-right: 10px;
+}
+
+.public2{
+  width: 100%;
+  margin-left: 60px;
+}
+
+.public_text{
+  float: left;
+  height: 50px;
+}
+
+.subway{
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.subway_text{
+  font-size: 17px;
+}
+
+.bus{
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.bus_text{
+  font-size: 17px;
+}
+
+/*footer1*/
+#footer1{
+  width: 100%;
+  height: 54px;
+  background-color: #444a99;
+}
+
+.footer1_inner{
+  width: 1320px;
+  height: 54px;
+  margin: 0 auto;
+}
+
+.footer1_inner p{
+  float: left;
+  margin: 14px 36px 0 0;
+}
+
+.footer1_inner p a{
+  color: #fff;
+  font-size: 17px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.footer1_inner p a:hover{
+  text-decoration: underline 1px #fff;
+}
+
+
+/*footer2*/
+#footer2{
+  width: 100%;
+  height: 277px;
+  background-color: #949494;
+}
+
+.footer2_inner{
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.footer_left{
+  width: 770px;
+  float: left;
+}
+
+.footer_logo{
+  float: left;
+  margin: 27px 62px 0 0;
+}
+
+.footer_p{
+  float: left;
+  color: #ddd;
+  margin-top: 42px;
+  font-size: 17px;
+}
+
+.footer_p h4{
+  margin-bottom: 32px;
+  font-size: 19px;
+}
+
+.footer_right{
+  width: 230px; /*너비때문*/
+  float: right;
+  text-align: right;
+}
+
+.footer_right ul li{
+  float: left;
+  margin: 41px 20px 0 0;
+}
+
+.margin4{
+  margin-right: 0;
+}
+
+.footer_right img{
+  opacity: 0.4;
+}
+
+.footer_right ul li:hover img{
+  opacity: 1;
+}
+
+/*top버튼*/
+.button{
+  position: fixed;/*fixed의 기준은 창크기가 기준이 됨*/
+  right: 50px;
+  bottom: 50px;
+  z-index: 100; /*다른 포지션 박스랑 겹쳤을 때 위로 올라오도록 높게 줌!*/
+}
