@@ -95,6 +95,7 @@ body{
 .nav li a:hover{
   color: #444a99;
   font-weight: bolder;
+  text-decoration: underline;
 }
 
 .bolder{
