@@ -326,6 +326,11 @@ h6{
   display: block;
 }
 
+video{
+  width: 1216px;
+  height: 684px;
+}
+
 /*con5*/
 .con5{
   width: 100%;
